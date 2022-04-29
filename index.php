@@ -52,7 +52,7 @@ require 'layouts/header.php';
             <option value="Volvo">Volvo</option>
             <option value="Dodge">Dodge</option>
         </select>
-        <button type="submit">Клик</button>
+        <button type="submit">Клиk</button>
     </form>
 </div>
 <?php
