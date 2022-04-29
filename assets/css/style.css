@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+    list-style: none;
+    transition: .5s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+    color: var(--maincolor);
+}
+
+:root {
+    --maincolor: #434242;
+    --hovertext: #6495EDFF;
+    --greycolor: #b8c2d1;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.logo:hover {
+    color: var(--hovertext);
+    text-decoration: underline;
+}
+
+li > a {
+    font-size: 18px;
+    padding: 0 30px;
+}
+
+li > a:hover {
+    color: var(--hovertext);
+}
+
+.header__button {
+    padding: 12px 24px;
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+    border-radius: 30px;
+    background-color: var(--hovertext);
+    color: white;
+}
+
+.header__button:hover {
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.4);
+}
+
+.main__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.main__content-text > h1,span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 95px;
+}
+
+.main__content-text > h1 span {
+    color: #6495EDFF;
+}
+
+.dignity-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dignity-card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    flex: 0 1 26%;
+    background: #4BA9FF;
+    box-shadow: 0px -10px 20px rgba(75, 169, 255, 0.35);
+    text-align: center;
+}
+
+.dignity-card > p {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 37px;
+}
+
+.about {
+    margin-top: 30px;
+}
+
+.about > h2 {
+    font-weight: 400;
+    font-size: 50px;
+
+    color: var(--maincolor);
+}
+
+.about__text > p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.form-search {
+    margin-top: 90px;
+}
+
+.form-search > h3 {
+    font-weight: 400;
+    font-size: 50px;
+
+    color: var(--maincolor);
+}
+
+th, td {
+    padding: 24px;
+}
+
+th {
+    background-color: #6495EDFF;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+td {
+    background-color: #6495EDFF;
+}
