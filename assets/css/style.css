@@ -236,3 +236,95 @@ td {
     margin: 40px auto 40px auto;
     justify-content: center;
 }
+
+select {
+    margin: 12px 20px;
+    width: 200px;
+    height: 30px;
+    padding-left: 8px;
+}
+
+.select__btn {
+    width: 200px;
+    height: 30px;
+    border: 1px solid var(--greycolor);
+    background: transparent;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.select__btn:hover {
+    border: 1px solid var(--hovertext);
+}
+
+.auth {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 42px;
+    padding-left: 8px;
+    outline: none;
+    border: 2px solid var(--greycolor);
+}
+
+input:hover {
+    border: 2px solid var(--hovertext);
+}
+
+.auth__btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 42px;
+    border: 2px solid var(--greycolor);
+    background: transparent;
+}
+
+.auth__btn:hover {
+    border: 2px solid var(--hovertext);
+}
+
+.adminpanel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.adminpanel__btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 42px;
+    border: 2px solid var(--greycolor);
+    background: transparent;
+}
+
+.adminpanel__btn:hover {
+    border: 2px solid var(--hovertext);
+}
+
+.exit-admin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exit-admin > p {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.exit-admin {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.exit-admin:hover {
+    color: var(--hovertext);
+}

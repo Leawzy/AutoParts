@@ -52,7 +52,7 @@ require 'layouts/header.php';
             <option value="Volvo">Volvo</option>
             <option value="Dodge">Dodge</option>
         </select>
-        <button type="submit">Клик</button>
+        <button type="submit" class="select__btn">Клик</button>
     </form>
 </div>
 <?php
@@ -89,13 +89,12 @@ require 'layouts/header.php';
                 <td><?=$product[6]?></td>
             </tr>
 
-
-
         <?php
             }
         }
         unset($_SESSION['details']);
         ?>
+    </table>
 <?php
 require 'layouts/footer.php';
 ?>
