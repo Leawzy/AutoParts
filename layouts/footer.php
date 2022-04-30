@@ -23,5 +23,6 @@
 </footer>
 </div>
 <script src="../assets/js/app.js"></script>
+<script src="../assets/js/toup.js"></script>
 </body>
 </html>

@@ -328,3 +328,17 @@ input:hover {
 .exit-admin:hover {
     color: var(--hovertext);
 }
+
+.to-up {
+    font-size: 18px;
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    display: none;
+    z-index: 22;
+    cursor: pointer;
+}
+
+.to-up:hover {
+    color: #4BA9FF;
+}

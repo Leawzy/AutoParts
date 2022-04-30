@@ -4,6 +4,7 @@ $title = 'Главная страница';
 require 'layouts/app.php';
 require 'layouts/header.php';
 ?>
+<div class="to-up">Наверх</div>
 <main>
     <div class="main__content">
         <div class="main__content-text">
