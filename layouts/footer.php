@@ -22,5 +22,6 @@
     <p>&copy;2022 AutoParts | All Rights Reserved</p>
 </footer>
 </div>
+<script src="../assets/js/app.js"></script>
 </body>
 </html>
