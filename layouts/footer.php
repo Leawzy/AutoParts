@@ -23,6 +23,9 @@
 </footer>
 </div>
 <script src="../assets/js/app.js"></script>
+<script src="../assets/js/modal.js"></script>
 <script src="../assets/js/toup.js"></script>
+<script src="../assets/js/email.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
